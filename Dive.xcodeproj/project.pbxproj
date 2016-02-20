@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		464D7AC01C766EF400FCC3D8 /* DiveCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D7ABF1C766EF400FCC3D8 /* DiveCollectionViewController.swift */; };
 		464D7AC21C766F9F00FCC3D8 /* DiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464D7AC11C766F9F00FCC3D8 /* DiveCollectionViewCell.swift */; };
+		4663C9081C768A780068956B /* NewDivePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663C9071C768A780068956B /* NewDivePageViewController.swift */; };
+		4663C90A1C768B820068956B /* NewDiveFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4663C9091C768B820068956B /* NewDiveFormViewController.swift */; };
 		46BDB9081C74E237000E5740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDB9071C74E237000E5740 /* AppDelegate.swift */; };
-		46BDB90A1C74E237000E5740 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BDB9091C74E237000E5740 /* ViewController.swift */; };
 		46BDB90D1C74E237000E5740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB90B1C74E237000E5740 /* Main.storyboard */; };
 		46BDB90F1C74E237000E5740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB90E1C74E237000E5740 /* Assets.xcassets */; };
 		46BDB9121C74E237000E5740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BDB9101C74E237000E5740 /* LaunchScreen.storyboard */; };
@@ -19,9 +20,10 @@
 /* Begin PBXFileReference section */
 		464D7ABF1C766EF400FCC3D8 /* DiveCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiveCollectionViewController.swift; sourceTree = "<group>"; };
 		464D7AC11C766F9F00FCC3D8 /* DiveCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiveCollectionViewCell.swift; sourceTree = "<group>"; };
+		4663C9071C768A780068956B /* NewDivePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDivePageViewController.swift; sourceTree = "<group>"; };
+		4663C9091C768B820068956B /* NewDiveFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDiveFormViewController.swift; sourceTree = "<group>"; };
 		46BDB9041C74E237000E5740 /* Dive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BDB9071C74E237000E5740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46BDB9091C74E237000E5740 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		46BDB90C1C74E237000E5740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46BDB90E1C74E237000E5740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46BDB9111C74E237000E5740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,9 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				46BDB9071C74E237000E5740 /* AppDelegate.swift */,
-				46BDB9091C74E237000E5740 /* ViewController.swift */,
 				464D7ABF1C766EF400FCC3D8 /* DiveCollectionViewController.swift */,
 				464D7AC11C766F9F00FCC3D8 /* DiveCollectionViewCell.swift */,
+				4663C9071C768A780068956B /* NewDivePageViewController.swift */,
+				4663C9091C768B820068956B /* NewDiveFormViewController.swift */,
 				46BDB90B1C74E237000E5740 /* Main.storyboard */,
 				46BDB90E1C74E237000E5740 /* Assets.xcassets */,
 				46BDB9101C74E237000E5740 /* LaunchScreen.storyboard */,
@@ -141,8 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46BDB90A1C74E237000E5740 /* ViewController.swift in Sources */,
+				4663C9081C768A780068956B /* NewDivePageViewController.swift in Sources */,
 				46BDB9081C74E237000E5740 /* AppDelegate.swift in Sources */,
+				4663C90A1C768B820068956B /* NewDiveFormViewController.swift in Sources */,
 				464D7AC21C766F9F00FCC3D8 /* DiveCollectionViewCell.swift in Sources */,
 				464D7AC01C766EF400FCC3D8 /* DiveCollectionViewController.swift in Sources */,
 			);
